@@ -56,3 +56,9 @@ gem 'gravatarify', '~> 3.0.0'
 gem 'public_activity'
 
 gem 'auto_html', '~> 1.6', '>= 1.6.4'
+
+group :production do
+	gem 'pg'
+	gem 'rails_12factor'
+	gem 'unicorn'
+end
